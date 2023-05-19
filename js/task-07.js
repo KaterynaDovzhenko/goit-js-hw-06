@@ -9,7 +9,7 @@ function fontSizeText({ currentTarget }) {
     console.log(textEl.style.fontSize )
 };
     
-
+// var 2
 
 // function fontSizeText(event) {
 //     textEl.style.fontSize = event.currentTarget.value + `px`;

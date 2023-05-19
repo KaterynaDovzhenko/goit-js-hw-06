@@ -27,8 +27,8 @@ const imgEl = document.querySelector('.gallery');
 // var 2
 
 const makeGalleryCard = ({ url, alt }) => `<li class="item">
-// <img src="${url}" alt = "${alt}" class = "img" >
-// </li>`;
+ <img src="${url}" alt = "${alt}" class = "img" >
+ </li>`;
 
 const galleryCard = images.map((el) => makeGalleryCard(el));
 imgEl.insertAdjacentHTML("afterbegin", galleryCard.join(""));
